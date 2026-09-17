@@ -1,4 +1,4 @@
-package app_dev.assignment_tracker;
+
 
 import java.util.Scanner;
 
@@ -17,10 +17,14 @@ public class Main{
         System.out.println("Enter Due Date: ");
         String dueDate = sc.nextLine();
 
+        System.out.println("Enter The Priority (High/Medium/Low)");
+        String level = sc.nextLine();
+
         System.out.println("\n ============= ASSIGNMENT INFORMATION ==============");
         System.out.println("Assignment: "+assignment);
         System.out.println("Subject: "+subject);
         System.out.println("Due Date: "+dueDate);
+        System.out.println("Priotity: "+level);
 
         sc.close();
     }
