@@ -1,0 +1,27 @@
+package app_dev.assignment_tracker;
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("=============== ASSIGNMENT DEADLINE TRACKER =============");
+
+        System.out.println("Assignment Name: ");
+        String assignment = sc.nextLine();
+
+        System.out.println("Enter Subject: ");
+        String subject = sc.nextLine();
+
+        System.out.println("Enter Due Date: ");
+        String dueDate = sc.nextLine();
+
+        System.out.println("\n ============= ASSIGNMENT INFORMATION ==============");
+        System.out.println("Assignment: "+assignment);
+        System.out.println("Subject: "+subject);
+        System.out.println("Due Date: "+dueDate);
+
+        sc.close();
+    }
+}
